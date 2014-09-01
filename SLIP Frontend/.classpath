@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/cmudict04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/cmulex.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/en_us.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/freetts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/freetts-1.2.2-bin/freetts-1.2/lib/mbrola.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Documents/School Stuff/LeapDeveloperKit_2.1.0+18736_win/LeapDeveloperKit_2.1.0+18736_win/LeapSDK/lib/LeapJava.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Tom/Documents/School Stuff/LeapDeveloperKit_2.1.0+18736_win/LeapDeveloperKit_2.1.0+18736_win/LeapSDK/lib/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path=""/>
+</classpath>
