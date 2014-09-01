@@ -152,7 +152,7 @@ class SampleListener extends Listener {
 					onLetter('C');
 				}
 				//D
-				if(fingers.extended().count() == 1 && fingers.extended().get(0).type().toString().equals("TYPE_INDEX") && pinch >= .9)
+				if(fingers.extended().count() == 1 && fingers.extended().get(0).type().toString().equals("TYPE_INDEX")/* && pinch >= .9*/)
 				{
 					onLetter('D');
 				}
@@ -162,7 +162,8 @@ class SampleListener extends Listener {
 					onLetter('E');
 				}
 				//F
-				if(fingers.extended().count() == 3 && fingers.extended().get(0).type().toString().equals("TYPE_MIDDLE") && fingers.extended().get(1).type().toString().equals("TYPE_RING") && fingers.extended().get(2).type().toString().equals("TYPE_PINKY"))
+				if(fingers.extended().count() == 3 && fingers.extended().get(0).type().toString().equals("TYPE_MIDDLE") && 
+						fingers.extended().get(1).type().toString().equals("TYPE_RING") && fingers.extended().get(2).type().toString().equals("TYPE_PINKY"))
 				{
 					onLetter('F');
 				}
@@ -181,12 +182,14 @@ class SampleListener extends Listener {
 				}
 				//J
 				//K
-				if(fingers.extended().count() == 2 && fingers.extended().get(0).type().toString().equals("TYPE_INDEX") && fingers.extended().get(1).type().toString().equals("TYPE_MIDDLE") && pinch >0 && pinch < .5 && distance > 48)
+				if(fingers.extended().count() == 2 && fingers.extended().get(0).type().toString().equals("TYPE_INDEX") && 
+						fingers.extended().get(1).type().toString().equals("TYPE_MIDDLE") && pinch >0 && pinch < .5 && distance > 48)
 				{
 					onLetter('K');
 				}
 				//L
-				if(fingers.extended().count() == 2 && fingers.extended().get(0).type().toString().equals("TYPE_THUMB") && fingers.extended().get(1).type().toString().equals("TYPE_INDEX"))
+				if(fingers.extended().count() == 2 && fingers.extended().get(0).type().toString().equals("TYPE_THUMB") && 
+						fingers.extended().get(1).type().toString().equals("TYPE_INDEX"))
 				{
 					onLetter('L');
 				}
@@ -281,7 +284,7 @@ class SampleListener extends Listener {
 			}
 		}
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(800);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
